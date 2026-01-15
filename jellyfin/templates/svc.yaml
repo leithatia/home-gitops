@@ -4,7 +4,6 @@ metadata:
   labels:
     app: jellyfin
   name: jellyfin
-  namespace: home-media
 spec:
   type: {{ .Values.service.type }}
   ports:

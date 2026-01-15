@@ -4,7 +4,6 @@ metadata:
   labels:
     app: jellyfin
   name: jellyfin
-  namespace: {{ .Values.namespace }}
 spec:
   replicas: 1
   selector:
