@@ -19,4 +19,4 @@ service:
   port: 8096
   nodePort: 30096
 
-# trigger argo resync
+# trigger another argo resync
