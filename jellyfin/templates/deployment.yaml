@@ -37,8 +37,8 @@ spec:
             allowPrivilegeEscalation: false
           resources:
             requests:
-              cpu: {{ .Values.resources.cpu | quote }}
-              memory: {{ .Values.resources.memory | quote }}
+              cpu: {{ .Values.resources.requests.cpu | quote }}
+              memory: {{ .Values.resources.requests.memory | quote }}
           volumeMounts:
             - name: config-volume
               mountPath: /config
