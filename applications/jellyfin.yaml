@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/leithatia/home-gitops
+    repoURL: https://github.com/leithatia/home-media
     targetRevision: main
-    path: jellyfin
+    path: helm/jellyfin
 
   destination:
     server: https://kubernetes.default.svc
