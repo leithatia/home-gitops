@@ -1,0 +1,31 @@
+### Secrets / env ###
+.env
+.env.*
+
+### Editors ###
+.vscode/
+.idea/
+*.swp
+*.swo
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+### OS ###
+.DS_Store
+Thumbs.db
+*~
+
+### Helm ###
+charts/
+*.tgz
+
+### Logs ###
+*.log
+
+### Keys / certs ###
+*.key
+*.pem
+
