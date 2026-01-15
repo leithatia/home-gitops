@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/leithatia/git-ops
+    repoURL: https://github.com/leithatia/home-gitops
     targetRevision: main
     path: jellyfin
 
