@@ -31,7 +31,7 @@ GitHub → Argo CD → Kubernetes
 
 ## Repository structure
 
-.
+```.
 ├── namespaces/
 │ └── jellyfin.yaml
 │
@@ -40,7 +40,7 @@ GitHub → Argo CD → Kubernetes
 │ └── pilotedge-audio-fetcher.yaml
 │
 └── README.md
-
+```
 ---
 
 ## Applications managed
